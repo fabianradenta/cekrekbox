@@ -154,7 +154,7 @@ export type FeatureIcon = "camera" | "users" | "play" | "image" | "printer" | "g
 export const features: { icon: FeatureIcon; title: [string, string] }[] = [
   { icon: "camera", title: ["Self-Photobooth", "(Automated)"] },
   { icon: "users", title: ["Live Photobooth", "dengan Operator"] },
-  { icon: "play", title: ["GIF & Boomerang", "Booth"] },
+  { icon: "play", title: ["GIF", "Booth"] },
   { icon: "image", title: ["Custom Digital", "Frame & Branding"] },
   { icon: "printer", title: ["Print Foto Instan", "& Softcopy Digital"] },
   { icon: "gift", title: ["Special Package", "Price"] },
@@ -246,18 +246,15 @@ export const bookingSteps = [
   { title: "Enjoy your moment!", text: "Tim kami memasang booth di lokasi dan memastikan tamu menikmati setiap sesi foto." },
 ];
 
-// FAQ. todo: true menandai jawaban placeholder (disorot kuning).
-export const faqs: { q: string; a: string; todo?: boolean }[] = [
+// FAQ
+export const faqs: { q: string; a: string }[] = [
   { q: "Bagaimana cara booking?", a: `Hubungi kami lewat WhatsApp ${contact.whatsappDisplay} dan ceritakan kebutuhan acaramu. Kami bantu memilih paket, lalu setelah detail disepakati tanggal acara dikonfirmasi dan tim kami menyiapkan booth untuk dipasang di lokasi.` },
   { q: "Bagaimana tamu mendapatkan softcopy foto?", a: "Setelah sesi foto, tamu cukup scan QR yang muncul. File GIF, foto asli, dan versi berlayout langsung tersimpan di ponsel mereka." },
   { q: "Apa bedanya cetak 4R dan strip 2R?", a: "Satu lembar cetak 4R bisa dipotong menjadi dua strip ukuran 2R, sehingga satu kuota cetak menghasilkan dua strip." },
   { q: `Bisa sewa lebih dari ${maxUnlimitedHours} jam?`, a: "Bisa. Hubungi kami lewat WhatsApp dan ceritakan durasi acaramu, nanti kami kirimkan penawarannya." },
-  // TODO: jawaban area layanan dan biaya transport luar Medan dari klien.
-  { q: "Area mana saja yang dilayani?", a: "[Isi area layanan dan biaya transport untuk lokasi di luar Medan.]", todo: true },
-  // TODO: jawaban kebutuhan daya listrik, ukuran area booth, dan waktu setup dari klien.
-  { q: "Apa saja yang perlu disiapkan di lokasi?", a: "[Isi kebutuhan daya listrik, ukuran area booth, dan waktu setup.]", todo: true },
-  // TODO: jawaban besaran DP, batas pelunasan, dan kebijakan pembatalan dari klien.
-  { q: "Bagaimana ketentuan DP dan pembatalan?", a: "[Isi besaran DP, batas pelunasan, dan kebijakan pembatalan.]", todo: true },
+  { q: "Area mana saja yang dilayani?", a: "Kami melayani acara di Kota Medan maupun di luar Kota Medan. Untuk acara di luar Kota Medan, dikenakan biaya transportasi. Silakan tanyakan besaran biayanya kepada admin." },
+  { q: "Apa saja yang perlu disiapkan di lokasi?", a: "Siapkan area booth minimal 3 × 4 meter, sumber listrik 900 watt, meja, dan kursi. Waktu setup sekitar 30 menit. Jika area yang tersedia lebih kecil, silakan diskusikan dengan admin." },
+  { q: "Bagaimana ketentuan DP dan pembatalan?", a: "DP sebesar 50% dari total pesanan dan dibayarkan paling lambat 2 hari setelah tagihan uang muka diberikan. Jika pesanan dibatalkan setelah DP dibayarkan, DP tidak dapat dikembalikan, tetapi dapat digunakan untuk event lain di kemudian hari." },
 ];
 
 // Tentang kami

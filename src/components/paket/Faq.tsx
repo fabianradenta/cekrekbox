@@ -19,7 +19,7 @@ export default function Faq() {
                   +
                 </span>
               </summary>
-              <p>{item.todo ? <span className="todo">{item.a}</span> : item.a}</p>
+              <p>{item.a}</p>
             </details>
           ))}
         </div>
