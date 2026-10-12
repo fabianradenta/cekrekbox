@@ -5,7 +5,6 @@ export default function BookingSteps() {
     <section className="section section--surface" id="booking">
       <div className="container stack-48">
         <div className="section-head center">
-          <span className="chip">Cara booking</span>
           <h2 className="h2">
             Booking dalam
             <br />

@@ -88,11 +88,13 @@ export const legal = [
 
 // Navigasi
 export const navLinks = [
-  { href: "/#layanan", label: "Layanan" },
-  { href: "/paket", label: "Paket & Harga" },
-  { href: "/#galeri", label: "Galeri" },
-  { href: "/#booking", label: "Cara Booking" },
-  { href: "/about", label: "Tentang Kami" },
+  { href: "#top", label: "Beranda", page: "/" },
+  { href: "#tentang", label: "Tentang Kami", page: "/" },
+  { href: "#layanan", label: "Layanan", page: "/" },
+  { href: "#paket", label: "Paket & Harga", page: "/" },
+  { href: "#galeri", label: "Galeri", page: "/" },
+  { href: "#top", label: "Paket & Harga", page: "/paket" },
+  { href: "#profil", label: "Tentang Kami", page: "/about" },
 ];
 
 // Klien
@@ -246,6 +248,7 @@ export const bookingSteps = [
 
 // FAQ. todo: true menandai jawaban placeholder (disorot kuning).
 export const faqs: { q: string; a: string; todo?: boolean }[] = [
+  { q: "Bagaimana cara booking?", a: `Hubungi kami lewat WhatsApp ${contact.whatsappDisplay} dan ceritakan kebutuhan acaramu. Kami bantu memilih paket, lalu setelah detail disepakati tanggal acara dikonfirmasi dan tim kami menyiapkan booth untuk dipasang di lokasi.` },
   { q: "Bagaimana tamu mendapatkan softcopy foto?", a: "Setelah sesi foto, tamu cukup scan QR yang muncul. File GIF, foto asli, dan versi berlayout langsung tersimpan di ponsel mereka." },
   { q: "Apa bedanya cetak 4R dan strip 2R?", a: "Satu lembar cetak 4R bisa dipotong menjadi dua strip ukuran 2R, sehingga satu kuota cetak menghasilkan dua strip." },
   { q: `Bisa sewa lebih dari ${maxUnlimitedHours} jam?`, a: "Bisa. Hubungi kami lewat WhatsApp dan ceritakan durasi acaramu, nanti kami kirimkan penawarannya." },

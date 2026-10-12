@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { contact, gallery, galleryPrint } from "@/content/site";
-import { ArrowRightIcon, ArrowUpRightIcon, InstagramIcon } from "../Icons";
+import { ArrowUpRightIcon, InstagramIcon } from "../Icons";
 
 const igUrl = `https://www.instagram.com/${contact.instagram}`;
 
@@ -9,7 +9,7 @@ export default function Gallery() {
   return (
     <section className="section" id="galeri">
       <div className="container" style={{ display: "flex", flexDirection: "column", gap: 40 }}>
-        <div className="section-head section-head--split">
+        <div className="section-head section-head--gallery">
           <div>
             <span className="chip">Galeri</span>
             <h2 className="h2">
@@ -18,9 +18,6 @@ export default function Gallery() {
               <span className="accent">kami abadikan</span>
             </h2>
           </div>
-          <a className="btn btn--outline btn--sm" href={igUrl} target="_blank" rel="noopener">
-            Lihat semua di Instagram <ArrowRightIcon />
-          </a>
         </div>
 
         <div className="bento">

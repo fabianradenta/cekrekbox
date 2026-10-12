@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <PageHero title="Tentang kami" crumb="Tentang Kami" text="Kenali cerita, visi, dan orang-orang di balik CekrekBox." />
+      <PageHero title="Tentang kami" text="Kenali cerita, visi, dan orang-orang di balik CekrekBox." />
 
       <section className="section" id="profil">
         <div className="container profile">

@@ -41,8 +41,8 @@ export default function HomePage() {
       <AboutTeaser />
       <Features />
       <PricingCards />
-      <Gallery />
       <BookingSteps />
+      <Gallery />
       <CtaBand
         variant="full"
         title={

@@ -22,7 +22,6 @@ export default function PaketPage() {
     <>
       <PageHero
         title="Paket & harga"
-        crumb="Paket & Harga"
         text="Dua pilihan paket untuk acara kecil sampai besar. Semuanya sudah termasuk operator, peralatan lengkap, softcopy via QR, dan desain frame custom gratis."
       >
         <div className="pill-links">
