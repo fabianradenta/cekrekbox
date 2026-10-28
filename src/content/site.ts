@@ -240,10 +240,10 @@ export const galleryPrint = { image: stripBwA, alt: "Contoh hasil cetak strip fo
 
 // Cara booking
 export const bookingSteps = [
-  { title: "Hubungi kami", text: `Ceritakan kebutuhan acaramu lewat WhatsApp ${contact.whatsappDisplay}.` },
-  { title: "Pilih paket", text: "Sesuaikan paket dengan konsep, skala, jumlah tamu, dan budget acaramu." },
-  { title: "Konfirmasi pesanan", text: "Setelah detail disepakati, kami kunci tanggal acaramu dan menyiapkan semuanya." },
-  { title: "Enjoy your moment!", text: "Tim kami memasang booth di lokasi dan memastikan tamu menikmati setiap sesi foto." },
+  { title: "Konsultasi Cepat", text: "Ceritakan kebutuhan acara kamu lewat WhatsApp 0851-8300-6412. Kami siap memberikan solusi dengan respons cepat." },
+  { title: "Pilih Paket Fleksibel", text: "Banyak pilihan paket untuk kamu yang mudah disesuaikan dengan kebutuhan dan anggaran." },
+  { title: "Konfirmasi Pesanan", text: "Jadwal sudah pas, kebutuhan sudah jelas, CekrekBox siap bikin acara kamu makin berkelas!" },
+  { title: "Enjoy Your Moment!", text: "Booth siap dipasang sesuai jadwal, bahkan lebih awal. Tenang, semua kebagian kenangan untuk dibawa pulang!" },
 ];
 
 // FAQ
